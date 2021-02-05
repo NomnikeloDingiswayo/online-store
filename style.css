@@ -1,0 +1,566 @@
+
+
+
+
+.header {
+    text-align: right;
+    line-height: 80px;
+    
+  
+  }
+  .logo{
+    color: grey;
+    font-size: 30px;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    font-family: var(--Playfair);
+  
+    
+  }
+  
+  .header-top {
+    margin: 0 30px 0 0;
+    text-align: right;
+  }
+  .header-top a {
+    clear: right;
+    text-decoration: none;
+    color:grey;
+    margin: 0 10px;
+    line-height: 100px;
+    font-size: 13px; 
+    
+  }
+  .header-top a:hover{
+    opacity: 0.7;
+    color: rgb(35, 94, 133);
+  }
+  
+
+  .nav{
+      text-align: center;
+      background-color: rgb(35, 94, 133);
+      color: white;
+      width: 100%;
+      height: 30px;
+      font-size: 20px; 
+      margin: 0 8px;
+  }
+  .nav a{
+      color: white;
+      text-decoration: none;
+      margin: 0 8px;
+  }
+
+  .search{
+     float: right;
+  }
+
+  .hero{
+      background-image: url(images/xiomi.jpg);
+      height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: rgb(239, 242, 245);
+
+  }
+  .hero-text{
+      text-align: center;
+      line-height: 70px;
+      font-size: x-large;
+  }
+
+
+/*.table{
+    padding:0px 100px;
+    border-spacing:450px ;
+    width: 100%;
+    border: none;
+    border-collapse: separate;
+    
+}
+
+.table, td {
+   
+    padding: 5px;
+    column-gap: 40px;
+   
+  
+}
+  .rating {
+      color: rgb(218, 149, 21);
+  } */
+
+  .banner
+{
+  width: 70%;
+  height: 350px;
+  position: absolute;
+  margin-left: 15%;
+  position: relative;
+  top: 40px;
+  background: url(https://junkmailimages.blob.core.windows.net/large/329c1eb3037a44248948449ce5633e5e.jpg);
+  background-position:  bottom;
+  box-shadow: 1px 2px 20px gray;
+
+}
+
+.banner img
+{
+  height: 290px;
+  float: right;
+  padding: 50px;
+  transition: .8s;
+}
+.banner img:hover
+{
+  transform: translateY(-40px);
+
+
+}
+.adver
+{
+  text-align: center;
+  line-height: 25px;
+  margin: 75px;
+ position: absolute;
+  color:  rgb(21, 149, 189);;
+  text-shadow: 2px 2px 20px gray;
+
+}
+
+.adver p
+{
+  width: 300px;
+  text-align: justify;
+}
+.adver p:hover
+{
+  color: white;
+}
+.adver h2
+{
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: black;
+  width: 250px;
+  font-family: sans-serif;
+
+}
+.adver h2:hover
+{
+  color: #E51FB0;
+
+}
+
+#icon
+{
+height: 25px;
+width: 20px;
+}
+#womenlist
+{
+  height: 20px;
+  width: 30px;
+  margin-top: -90px;
+}
+/* advertising */
+.gall
+{
+margin-left: 38px;
+width: 100% auto;
+height: 240px;
+position: relative;
+top: 60px;
+
+}
+.glasses,.shoes,.wear
+{
+  width: 30%;
+  height: 150px ;
+  border: 1px solid gray;
+  box-shadow: 1px 2px 20px gray;
+  border-radius: 9px;
+  transition: .8s;
+}
+.glasses:hover,.shoes:hover,.wear:hover
+{
+  background: rgba(0,0,0, .6);
+  color: white;
+  transform: translatey(-20px);
+}
+.glasses
+{
+  float: left;
+  position: relative;
+  left: 30px;
+  top: 30px;
+  background: #C8EBF3;
+
+}
+.shoes
+{
+  position: absolute;
+  left: 34%;
+  top: 30px;
+  background: linear-gradient(#A6A6A6,lightgray);
+}
+
+.wear
+{
+  float: right;
+ 
+  background: darkgray;
+  position: relative;
+  top: -150px;
+  right: 42px;
+}
+.new
+{
+  height:30px;
+  width: 30px;
+  border-radius: 360px;
+  background: #49B4F2;
+  float: right;
+  padding: 18px;
+  margin-right: 20px;
+}
+.b_sale
+{
+  background: rgb(35, 94, 133);
+  border-radius: 360px;
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+  font-weight: bolder;
+  color: white;
+  float: right;
+  padding: 10px;
+}
+.b_sale p {
+  width: 20px;
+  padding: 4px;
+  text-align: center;
+}
+.lab
+{
+margin: 20px;
+}
+.new p,.new2 p
+{
+  width: 50px;
+  font-size: 18px;
+  font-weight: bolder;
+  margin: -6px;
+  margin-top: 3px;
+
+}
+
+.inner img
+{
+  height: 200;
+  width: 150px;
+  overflow: hidden;
+  float: right;
+  position: relative;
+  right: 10px;
+  bottom: 98px;
+}
+.inner label
+{
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: arial;
+
+}
+.lab p
+{
+  width: 180px;
+  font-size: 20px;
+
+}
+.inner2{
+  height: 150px;
+  border: 1px solid black;
+}
+.new2
+{
+
+    height:30px;
+    width: 30px;
+    border-radius: 360px;
+    background: #49B4F2;
+    float: right;
+    position: relative;
+    top: -120px;
+    right: 20px;
+    padding: 18px;
+}
+/* trendingProduct */
+.trendingProduct
+{
+  height: 400px;
+  margin: 70px;
+
+  width:  auto;
+
+}
+.trendingProduct #heading
+{
+  font-size: 18px;
+  color: rgb(231, 37, 231);
+  font-family: sans-serif;
+  transition: 1s;
+ text-decoration: none;
+}
+.trendingProduct #heading:hover
+{
+    color: rgb(149, 196, 228);
+
+    cursor: pointer;
+}
+.itmes
+{
+  margin-top: 20px;
+  height: 350px;
+
+}
+.nike_heel,.lenny,.lenny2,.lenny3
+{
+  height: 350px;
+  width: 300px;
+  background: white;
+  border-radius: 5px;
+  transition: .5s;
+}
+.nike_heel:hover,.lenny:hover,.lenny2:hover,.lenny3:hover
+{
+  transform: translateY(-6px);
+  cursor: pointer;
+}
+.lenny
+{
+  position: relative;
+  top: -351px;
+  left: 310px;
+}
+.lenny2
+{
+  position: relative;
+  top: -702px;
+  left: 620px;
+}
+.lenny3
+{
+  position: relative;
+  top: -1053px;
+  left: 930px;
+}
+.nike_heel img
+{ margin-left: 40px;
+  height: 200px;
+  width: 200px;
+  margin-top: 16%;
+
+}
+.nike_heel:hover,.lenny:hover,.lenny2:hover,.lenny3:hover
+{
+  padding: 1px;
+  box-shadow: 1px 2px 5px gray;
+
+}
+.nike_heel hr,.lenny hr,.lenny3 hr
+{
+  width: 90%;
+  margin-left: 5%;
+}
+.lenny img
+{
+  height: 250px;
+  width: 200px;
+  margin-left: 40px;
+  transform: rotate(360deg);
+}
+
+.lenny2 img
+{
+  height: 220px;
+  width: 180px;
+  margin-left: 70px;
+}
+.lenny2 hr {
+  margin-top: -6px;
+  width: 90% ;
+  margin-left: 5%;
+}
+.lenny3 img
+{
+  width: 250px ;
+  margin-left: 30px;
+}
+
+.i_details
+
+{
+  position: relative;
+  width: 100% auto;
+  text-align: center;
+  margin-top: 10px;
+}
+#i_name:hover
+{
+  cursor: pointer;
+}
+#change
+{
+color: gray;
+}
+#change:hover
+{
+color: rgb(35, 94, 133);
+cursor: pointer;
+text-decoration: underline;
+}
+
+
+.footers
+{
+  height: 300px;
+  width: 100% ;
+  position: absolute;
+  background:rgb(35, 94, 133);
+}
+.contents
+{
+  height: 290px;
+  width: 100% auto;
+
+  
+}
+/* information */
+
+.information
+{
+margin: 40px;
+position: relative;
+}
+#i_h
+{
+  color: lightgray;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+.information
+{
+width: 17%;
+height: 240px;
+
+
+}
+.c_s
+{
+  width: 17%;
+  height: 240px;
+
+  position: absolute;
+  left: 22%;
+  top: 40px;
+}
+
+.m_a
+{
+  width: 17%;
+  height: 240px;
+  color: white;
+  position: absolute;
+  left: 62%;
+  top: 40px;
+}
+.social
+{
+  height: 240px;
+  width: 17%;
+  position: absolute;
+  right: 3%;
+  top: 49px;
+  }
+.information ul li
+{
+  color: gray;
+  list-style: none;
+  width: 80%;
+  line-height: 20px;
+  padding: 10px;
+  
+  border-spacing: 2px;
+  font-weight: bolder;
+  font-size: small;
+  letter-spacing: .5px;
+}
+.information ul li:hover
+{
+  color: rgb(35, 94, 133);
+  cursor:pointer;
+}
+/* customer service */
+
+.c_s ul li
+{
+  color: gray;
+  list-style: none;
+
+  width: 80%;
+  position: relative;
+  /* top: -245px;
+  left: 270px; */
+  line-height: 20px;
+  padding: 10px;
+
+  border-spacing: 2px;
+  font-weight: bolder;
+  font-size: small;
+  letter-spacing: .5px;
+}
+.c_s ul li:hover
+{
+  color: rgb(35, 94, 133);
+  cursor:pointer;
+}
+/* extras */
+.extras ul li
+{
+  color: gray;
+  list-style: none;
+  width: 80%;
+  position: relative;
+  /* top: -410px;
+  left: 530px; */
+  line-height: 20px;
+  padding: 10px;
+  border-bottom: 1px dashed gray;
+  border-spacing: 2px;
+  font-weight: bolder;
+  font-size: medium;
+  letter-spacing: .5px;
+}
+
+.myinfo
+{
+  width: 100%;
+  height: 30px;
+ 
+  position: relative;
+  border-top: 1px solid gray;
+ top: 300px;
+  text-align: center;
+  color: gray;
+
+}
+.myinfo p
+{
+  padding: 7px;
+}
